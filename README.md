@@ -1,30 +1,26 @@
 # 📚 Student Study Planner
 
-A simple and responsive study planner built with **HTML, CSS and JavaScript**.
+A simple and user-friendly study planner built with HTML, CSS and JavaScript.
 
-## Features
-- Add study tasks
-- Set task priority
-- Mark tasks as completed
-- Delete tasks
-- Saves tasks using browser LocalStorage
-- Responsive design for mobile and desktop
+## ✨ Features
 
-## Technologies
-- HTML5
-- CSS3
+- 📝 Add and manage study tasks
+- 📅 Organize study activities
+- ✅ Track completed tasks
+- 💻 Simple and responsive design
+
+## 🛠️ Technologies Used
+
+- HTML
+- CSS
 - JavaScript
-- LocalStorage
 
-## How to Run
-Open `index.html` in any modern web browser.
+## 🌐 Live Demo
 
-## Future Improvements
-- Daily/weekly calendar
-- Study timer
-- Progress dashboard
-- Dark mode
-- Subject-wise task filtering
+[Open Student Study Planner](https://ankita200628.github.io/student-study-planner/)
 
-## Author
-Ankita
+## 👩‍💻 Developer
+
+**Ankita Bardhan**
+
+Computer Science & Technology Student
