@@ -2,11 +2,6 @@
 
 A simple and user-friendly study planner built with HTML, CSS and JavaScript.
 
-## 📸 Preview
-
-![Student Study Planner]
-(student-planner.png)
-
 ## ✨ Features
 
 - 📝 Add and manage study tasks
