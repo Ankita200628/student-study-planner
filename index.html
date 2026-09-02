@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Study Planner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>📚 Student Study Planner</h1>
+    <p class="subtitle">Plan your study time, track tasks, and stay productive.</p>
+
+    <section class="card">
+      <h2>Add a Study Task</h2>
+      <div class="form">
+        <input id="taskInput" type="text" placeholder="Enter a study task">
+        <select id="priority">
+          <option value="High">High</option>
+          <option value="Medium" selected>Medium</option>
+          <option value="Low">Low</option>
+        </select>
+        <button onclick="addTask()">Add Task</button>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="section-head">
+        <h2>My Tasks</h2>
+        <span id="count">0 tasks</span>
+      </div>
+      <ul id="taskList"></ul>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

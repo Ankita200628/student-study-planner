@@ -1,0 +1,63 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+  color: #1f2937;
+}
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+h1 { margin-bottom: 8px; }
+.subtitle { color: #6b7280; }
+.card {
+  background: white;
+  padding: 22px;
+  margin-top: 20px;
+  border-radius: 16px;
+  box-shadow: 0 5px 20px rgba(0,0,0,.08);
+}
+.form {
+  display: grid;
+  grid-template-columns: 1fr 150px 120px;
+  gap: 10px;
+}
+input, select, button {
+  padding: 12px;
+  border-radius: 9px;
+  border: 1px solid #d1d5db;
+  font-size: 15px;
+}
+button {
+  border: none;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+button:hover { opacity: .9; }
+.section-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#count { color: #6b7280; }
+ul { list-style: none; padding: 0; }
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 14px;
+  margin-top: 10px;
+  background: #f8fafc;
+  border-radius: 10px;
+}
+.task.done .name { text-decoration: line-through; color: #9ca3af; }
+.badge { font-size: 12px; padding: 5px 8px; border-radius: 20px; background: #e5e7eb; }
+.delete { background: #ef4444; padding: 8px 10px; }
+@media (max-width: 650px) {
+  .form { grid-template-columns: 1fr; }
+  .task { align-items: flex-start; }
+}
